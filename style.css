@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* horizontal center */
+  justify-content: center; /* vertical center */
+
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1, h3, p {
+  text-align: center;
+}
+
+input, button {
+  margin: 6px;
+  padding: 6px 10px;
+}
+
+button {
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto; /* center horizontally */
+  text-align: center;
+}
+
+input, button {
+  margin: 6px;
+  padding: 6px 10px;
+}
