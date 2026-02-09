@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Geometry Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1 id="myh1">Welcome to Geometry World 🌍</h1>
+  <p id="myp">Select a shape and calculate</p>
+
+  <!-- DROPDOWN -->
+  <select id="shapeSelect">
+    <option value="all">Show All Shapes</option>
+    <option value="circle">Circle</option>
+    <option value="rectangle">Rectangle</option>
+    <option value="triangle">Triangle</option>
+    <option value="sphere">Sphere</option>
+    <option value="cube">Cube</option>
+    <option value="square">Square</option>
+    <option value="cuboid">Cuboid</option>
+    <option value="cylinder">Cylinder</option>
+    <option value="cone">Cone</option>
+    <option value="hemisphere">Hemisphere</option>
+  </select>
+
+  <!-- CIRCLE -->
+  <div class="section circle">
+    <h3>🔵 Circle</h3>
+    <input type="number" id="circleRadius" placeholder="Radius">
+    <button id="circleArea">Area</button>
+    <button id="circleCircum">Circumference</button>
+  </div>
+
+  <!-- RECTANGLE -->
+  <div class="section rectangle">
+    <h3>🟩 Rectangle</h3>
+    <input type="number" id="rectLen" placeholder="Length">
+    <input type="number" id="rectWid" placeholder="Width">
+    <button id="rectArea">Area</button>
+    <button id="rectPer">Perimeter</button>
+  </div>
+
+  <!-- TRIANGLE -->
+  <div class="section triangle">
+    <h3>🔺 Triangle</h3>
+    <input type="number" id="triBase" placeholder="Base">
+    <input type="number" id="triHeight" placeholder="Height">
+    <button id="triArea">Area</button><br><br>
+    <input type="number" id="triA" placeholder="Side A">
+    <input type="number" id="triB" placeholder="Side B">
+    <input type="number" id="triC" placeholder="Side C">
+    <button id="triPer">Perimeter</button>
+  </div>
+
+  <!-- SPHERE -->
+  <div class="section sphere">
+    <h3>⚪ Sphere</h3>
+    <input type="number" id="sphereRadius" placeholder="Radius">
+    <button id="sphereArea">Surface Area</button>
+    <button id="sphereVol">Volume</button>
+  </div>
+
+  <!-- CUBE -->
+  <div class="section cube">
+    <h3>🧊 Cube</h3>
+    <input type="number" id="cubeSide" placeholder="Side">
+    <button id="cubeArea">Surface Area</button>
+    <button id="cubeVol">Volume</button>
+  </div>
+
+  <!-- SQUARE -->
+  <div class="section square">
+    <h3>🟦 Square</h3>
+    <input type="number" id="sqSide" placeholder="Side">
+    <button id="sqArea">Area</button>
+    <button id="sqPer">Perimeter</button>
+  </div>
+
+  <!-- CUBOID -->
+  <div class="section cuboid">
+    <h3>📦 Cuboid</h3>
+    <input type="number" id="cubLen" placeholder="Length">
+    <input type="number" id="cubWid" placeholder="Width">
+    <input type="number" id="cubHei" placeholder="Height">
+    <button id="cubArea">Surface Area</button>
+    <button id="cubVol">Volume</button>
+  </div>
+
+  <!-- CYLINDER -->
+  <div class="section cylinder">
+    <h3>🟫 Cylinder</h3>
+    <input type="number" id="cylRad" placeholder="Radius">
+    <input type="number" id="cylHei" placeholder="Height">
+    <button id="cylCSA">CSA</button>
+    <button id="cylTSA">TSA</button>
+    <button id="cylVol">Volume</button>
+  </div>
+
+  <!-- CONE -->
+  <div class="section cone">
+    <h3>🔺 Cone</h3>
+    <input type="number" id="coneRad" placeholder="Radius">
+    <input type="number" id="coneHei" placeholder="Height">
+    <input type="number" id="coneSlant" placeholder="Slant Height">
+    <button id="coneCSA">CSA</button>
+    <button id="coneTSA">TSA</button>
+    <button id="coneVol">Volume</button>
+  </div>
+
+  <!-- HEMISPHERE -->
+  <div class="section hemisphere">
+    <h3>⚪ Hemisphere</h3>
+    <input type="number" id="hemiRad" placeholder="Radius">
+    <button id="hemiCSA">CSA</button>
+    <button id="hemiTSA">TSA</button>
+    <button id="hemiVol">Volume</button>
+  </div>
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
